@@ -1,0 +1,48 @@
+==================================================
+Hash Cracking Report - Fri Oct 20 14:35:22 2023
+==================================================
+
+[+] Target Information
+• Hash Type: SHA256
+• Target Hash: 5e884898da28047151d0e56f8dc6292773603d0d6aabbdd62a11ef721d1542d8
+• Wordlist: wordlists/common_passwords.txt
+• Wordlist Size: 15,431 entries
+
+[+] Execution Parameters
+• Start Time: 2023-10-20 14:35:12
+• System: Linux kali 5.18.0-kali5-amd64
+• Cores: 8
+• Performance: ~12,350 hashes/second
+
+[+] Crack Results
+• STATUS: CRACKED
+• Password Found: "password"
+• Attempts Made: 4
+• Time Elapsed: 0.008 seconds
+
+[+] Security Analysis
+• Password Strength: Very Weak
+• Common Password Rank: #1 (RockYou breach)
+• Recommendations:
+  - Immediately change this password
+  - Enforce minimum 12-character policy
+  - Implement password blacklisting
+
+[+] Statistics
+• Hashes Processed: 4
+• Completion Rate: 100.00%
+• Performance Metrics:
+  - Avg. Speed: 12,350 H/s
+  - Peak Speed: 12,500 H/s
+  - Memory Usage: 45.2 MB
+
+[+] Audit Trail
+14:35:12 - Loaded wordlist (15,431 entries)
+14:35:12 - Starting SHA256 cracking
+14:35:12 - Attempt 1: "123456" → No match
+14:35:12 - Attempt 2: "password" → MATCH FOUND
+14:35:12 - Cracking complete
+
+==================================================
+END OF REPORT - EthicalHacker v1.2
+==================================================
